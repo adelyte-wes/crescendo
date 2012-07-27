@@ -1,17 +1,24 @@
-Status$
+# SIMPL Windows and VTPro-e
 *.ASV
-*.bak
+
+# SIMPL Windows
+SPlsWork/
+*CrosspointList.txt
+*.lpz
+*.spz
 *.sm2
 *.um2
-*.mdb
-*.ldb
-*.iPad*
-*.Upx*
-*.xexe*
-*.xweb*
-*AUTOSAVE*
-*SPlsWork*
-Documentation/*.spz
-*CrosspointList.txt
+
+# VTPro-e
+*.vtz
+*.iPad/
+*.Upx/
+*.xexe/
+*.xweb/
+
+# D3Pro
+Status$
+AUTOSAVE/
 *_Config.smw
-*_compiled.zip
+*.ldb
+*.mdb
